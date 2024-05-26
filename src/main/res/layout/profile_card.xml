@@ -58,27 +58,31 @@
             app:cardCornerRadius="8dp"
             >
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:gravity="center"
                 android:layout_margin="10dp">
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center"
                     android:layout_marginEnd="16dp">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Years"
+                        android:gravity="center"
                         android:textColor="@color/black" />
 
                     <TextView
                         android:id="@+id/profileYearsTextView"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Years"
+                        android:gravity="center"
                         android:textStyle="bold"
                         style="@style/Material.Body2.Light"
                         android:textAppearance="?attr/textAppearanceCaption"
@@ -87,51 +91,52 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center"
                     android:layout_marginEnd="16dp">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-
                         android:text="Coffees"
+                        android:gravity="center"
                         android:textColor="@color/black" />
 
                     <TextView
                         android:id="@+id/profileCoffeesTextView"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-
-                        android:text="Coffees"
                         style="@style/Material.Body2.Light"
                         android:textStyle="bold"
+                        android:gravity="center"
                         android:textAppearance="?attr/textAppearanceCaption"
                         android:textColor="@color/black" />
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-
                         android:text="Bugs"
-
+                        android:gravity="center"
                         android:textColor="@color/black" />
 
                     <TextView
                         android:id="@+id/profileBugsTextView"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-
-                        android:text="Bugs"
                         android:textStyle="bold"
+                        android:gravity="center"
                         style="@style/Material.Body2.Light"
                         android:textAppearance="?attr/textAppearanceCaption"
                         android:textColor="@color/black" />
